@@ -1,0 +1,74 @@
+[
+  {
+    "model": "authorization.role",
+    "pk": 1,
+    "fields": {
+      "name": "admin",
+      "description": "Администратор системы. Полный доступ ко всем ресурсам."
+    }
+  },
+  {
+    "model": "authorization.role",
+    "pk": 2,
+    "fields": {
+      "name": "manager",
+      "description": "Менеджер. Чтение всех объектов, управление своими."
+    }
+  },
+  {
+    "model": "authorization.role",
+    "pk": 3,
+    "fields": {
+      "name": "user",
+      "description": "Обычный пользователь. Управление только своими объектами."
+    }
+  },
+  {
+    "model": "authorization.role",
+    "pk": 4,
+    "fields": {
+      "name": "guest",
+      "description": "Гость. Только чтение публичных данных."
+    }
+  },
+  {
+    "model": "authorization.businesselement",
+    "pk": 1,
+    "fields": {
+      "name": "users",
+      "description": "Пользователи системы"
+    }
+  },
+  {
+    "model": "authorization.businesselement",
+    "pk": 2,
+    "fields": {
+      "name": "products",
+      "description": "Товары"
+    }
+  },
+  {
+    "model": "authorization.businesselement",
+    "pk": 3,
+    "fields": {
+      "name": "shops",
+      "description": "Магазины"
+    }
+  },
+  {
+    "model": "authorization.businesselement",
+    "pk": 4,
+    "fields": {
+      "name": "orders",
+      "description": "Заказы"
+    }
+  },
+  {
+    "model": "authorization.businesselement",
+    "pk": 5,
+    "fields": {
+      "name": "access_rules",
+      "description": "Правила доступа"
+    }
+  }
+]
